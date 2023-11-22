@@ -1,3 +1,3 @@
 
-11월 20, 2023 13:32:24.455 NEW SESSION
-11월 20, 2023 13:32:24.455 [5904:11696:1120/133224.454:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 21, 2023 15:09:59.586 NEW SESSION
+11월 21, 2023 15:09:59.586 [2156:2160:1121/150959.584:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost

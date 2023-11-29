@@ -1,3 +1,29 @@
 
 11월 21, 2023 15:09:59.586 NEW SESSION
 11월 21, 2023 15:09:59.586 [2156:2160:1121/150959.584:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+11월 22, 2023 09:32:23.559 NEW SESSION
+11월 22, 2023 09:32:23.559 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 22, 2023 11:16:51.790 [5432:2440:1122/111651.790:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+
+11월 24, 2023 10:21:38.994 NEW SESSION
+11월 24, 2023 10:21:38.994 [16644:5376:1124/102138.992:ERROR:CONSOLE(1)] "Request Runtime.evaluate failed. {"code":-32602,"message":"uniqueContextId not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+11월 24, 2023 10:21:38.995 [16644:5376:1124/102138.992:ERROR:CONSOLE(1)] "uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+11월 24, 2023 10:21:38.996 [16644:5376:1124/102138.992:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+11월 24, 2023 10:21:38.999 [16644:5376:1124/102138.998:ERROR:CONSOLE(1)] "Received error with code E_PROTOCOLERROR while checking if react has loaded: "Inspector protocol error: %s"", source: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/main.js (1)
+11월 24, 2023 11:04:50.745 [16644:5376:1124/110450.745:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+
+11월 24, 2023 15:54:13.115 NEW SESSION
+11월 24, 2023 15:54:13.115 [4400:16872:1124/155413.113:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 24, 2023 17:41:55.727 [12576:12704:1124/174155.727:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://localhost:8080/jwbook/validation/joinProcess.jsp has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+11월 24, 2023 17:44:36.422 [12576:12704:1124/174436.422:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://localhost:8080/jwbook/validation/joinProcess.jsp has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+11월 24, 2023 17:54:19.718 [12576:12704:1124/175419.718:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://localhost:8080/jwbook/validation/joinProcess.jsp has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+11월 24, 2023 17:55:08.75 [12576:12704:1124/175508.075:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://localhost:8080/jwbook/validation/joinProcess.jsp has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+11월 24, 2023 18:08:29.30 [12576:12704:1124/180829.030:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://localhost:8080/jwbook/validation/joinProcess.jsp has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+11월 24, 2023 18:08:55.591 [12576:12704:1124/180855.590:ERROR:CONSOLE(1)] "Extension server error: Operation failed: http://localhost:8080/jwbook/validation/joinProcess.jsp has no execution context", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+
+11월 28, 2023 10:23:41.470 NEW SESSION
+11월 28, 2023 10:23:41.470 [16680:16676:1128/102341.468:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 28, 2023 10:49:16.313 [16680:16676:1128/104916.313:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+11월 28, 2023 11:01:38.458 [16680:16676:1128/110138.457:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+11월 28, 2023 11:03:12.66 [16680:16676:1128/110312.065:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost

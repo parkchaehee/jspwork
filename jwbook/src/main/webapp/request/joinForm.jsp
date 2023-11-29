@@ -37,17 +37,20 @@
 			<li>
 				<label for="hobby">취미 </label>
 				<input type="checkbox" id="hobby" name="hobby" value="운동" checked>운동
-				<input type="checkbox" id="hobby" name="hobby" value="영화">영화
-				<input type="checkbox" id="hobby" name="hobby" value="게임">게임
+				<input type="checkbox" id="hobby" name="hobby" value="영화" >영화보기
+				<input type="checkbox" id="hobby" name="hobby" value="게임" >컴퓨터게임
 			</li>
 			<li>
 				<label for="gender">성별 </label>
-				<input type="radio" id="gender" name="gender" value="male" checked>남성
-				<input type="radio" id="gender" name="gender" value="female">여성
+				<label><input type="radio" id="gender" name="gender" 
+							value="male" checked>남성</label>
+				<label><input type="radio" id="gender" name="gender" 
+							value="female" >여성</label>
 			</li>
 			<li>
 				<textarea rows="3" cols="30" name="comment" 
 					placeholder="가입 인사를 남겨주세요"></textarea>
+			</li>
 			<li>
 				<!-- <input type="submit" value="로그인"> -->
 				<button type="submit">가입</button>

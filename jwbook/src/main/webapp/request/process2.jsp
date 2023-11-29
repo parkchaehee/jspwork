@@ -2,17 +2,12 @@
     pageEncoding="UTF-8"%>
 <%
 	String[] fruitList = request.getParameterValues("fruit");
-
-	for(int i=0; i<fruitList.length; i++){
-		out.println(fruitList[i]);
-	}
-
 %>
 <p>선택한 과일</p>
 <p>
-	<% 
-	for(int i=0; i<fruitList.length; i++){
-	out.println(fruitList[i]);
+  <% 
+	for(int i = 0; i < fruitList.length; i++){
+		out.println(fruitList[i]);
 	}
-	%>
+  %>
 </p>

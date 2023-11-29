@@ -9,10 +9,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * Servlet implementation class ForSecondServlet
+ */
 @WebServlet("/for/second")
-public class ForsecondServlet extends HttpServlet {
+public class ForSecondServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-    public ForsecondServlet() {
+       
+    public ForSecondServlet() {
         super();
     }
 

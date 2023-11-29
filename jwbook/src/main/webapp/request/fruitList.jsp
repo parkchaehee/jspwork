@@ -8,18 +8,18 @@
 </head>
 <body>
 	<form action="process2.jsp" method="post">
-	<p>
-		<label>오렌지
-			<input type="checkbox" name="fruit" value="orange">
-		</label>
-		<label>사과
-			<input type="checkbox" name="fruit" value="apple">
-		</label>
-		<label>바나나
-			<input type="checkbox" name="fruit" value="banana">
-		</label>
-		<input type="submit" value="선택">
-	</p>
+		<p>
+			<label>오렌지
+				<input type="checkbox" name="fruit" value="orange">
+			</label>
+			<label>사과
+				<input type="checkbox" name="fruit" value="apple">
+			</label>
+			<label>바나나
+				<input type="checkbox" name="fruit" value="banana">
+			</label>
+			<input type="submit" value="선택">
+		</p>
 	</form>
 </body>
 </html>

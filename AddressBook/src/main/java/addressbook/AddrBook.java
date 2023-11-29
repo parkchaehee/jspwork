@@ -2,15 +2,15 @@ package addressbook;
 
 import java.io.Serializable;
 
+//주소록 데이터 자료형 빈즈 클래스
 public class AddrBook implements Serializable{
-	
+
 	private static final long serialVersionUID = 1L;
 	
 	private String username;
 	private String tel;
 	private String email;
 	private String gender;
-	
 	
 	public String getUsername() {
 		return username;
@@ -36,11 +36,4 @@ public class AddrBook implements Serializable{
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	
-	
-	
-	
-	
-	
-
 }

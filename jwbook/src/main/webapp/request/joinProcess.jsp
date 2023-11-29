@@ -2,8 +2,8 @@
     pageEncoding="UTF-8"%>
 <%
 	//한글 인코딩 설정
-	request.setCharacterEncoding("utf-8");	
-
+	request.setCharacterEncoding("utf-8");
+	
 	String id = request.getParameter("uid");
 	String pw = request.getParameter("passwd");
 	String name = request.getParameter("name");
@@ -14,6 +14,7 @@
 	String[] hobbyList = request.getParameterValues("hobby");
 	String gender = request.getParameter("gender");
 	String comment = request.getParameter("comment");
+
 %>
 
 <p>아이디: <%=id %></p>
@@ -21,12 +22,15 @@
 <p>이름: <%=name %></p>
 <p>이메일: <%=email %></p>
 <p>연락처: <%=tel1 %> - <%=tel2 %> - <%=tel3 %></p>
-<p>취미: 
+<p>
 <%
-	for(int i=0; i<hobbyList.length; i++){
-		out.println( hobbyList[i]);
+	for(int i = 0; i < hobbyList.length; i++){
+		out.println(hobbyList[i]);
 	}
 %>
 </p>
 <p>성별: <%=gender %></p>
 <p>가입인사: <%=comment %></p>
+
+
+

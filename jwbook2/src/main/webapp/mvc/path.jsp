@@ -9,10 +9,11 @@
 <body>
 	<%
 		String uri = request.getRequestURI();
-		String context = request.getContextPath();
-		StringBuffer url = request.getRequestURL();
+	    String context = request.getContextPath();
+	    StringBuffer url = request.getRequestURL();
+	
 	%>
-	<p>URI(컨텍스트 + 파일경로): <%=uri %>
+	<p>URI(컨텍스트 + 파일 경로):<%=uri %>
 	<p>Context(프로젝트): <%=context %>
 	<p>URL(전체 경로): <%=url %>
 </body>

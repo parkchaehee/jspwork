@@ -8,6 +8,6 @@
 </head>
 <body>
 	<h2>Testing...</h2>
-	<h2>${msg}</h2>
+	<h3>${msg}</h3>
 </body>
 </html>

@@ -13,6 +13,7 @@ public class Reply implements Serializable{
 	private String replyer;
 	private Timestamp rdate;
 	private Timestamp rupdate;
+	
 	public int getRno() {
 		return rno;
 	}
@@ -49,10 +50,4 @@ public class Reply implements Serializable{
 	public void setRupdate(Timestamp rupdate) {
 		this.rupdate = rupdate;
 	}
-	
-	
-	
-	
-	
-
 }

@@ -7,13 +7,13 @@
 <head>
 <meta charset="UTF-8">
 <title>회원 정보</title>
-<link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="../resources/css/style.css">
 </head>
 <body>
 	<jsp:include page="../header.jsp" />
-	<div id="container">
-	  <section id="memberlist">
-		<h2>회원정보</h2>
+    <div id="container">
+      <section id="memberview">
+		<h2>회원 정보</h2>
 		<table>
 			<tbody>
 				<tr>
@@ -38,21 +38,21 @@
 				</tr>
 				<tr>
 					<td><label for="joindate">가입일</label></td>
-					<td><fmt:formatDate value="${member.joinDate}"
-									pattern="yyyy-MM-dd HH:mm:ss" /></td>
+					<td><fmt:formatDate value="${member.joinDate}" 
+		                    pattern="yyyy-MM-dd HH:mm:ss" /></td>
 				</tr>
 				<tr>
 					<td colspan="2">
 					<c:if test="${sessionId eq member.id}">
-						<a href="">
-						<button>수정</button>
+						<a href=""> 
+							<button>수정</button>
 						</a>
-						<a href="">
-						<button>탈퇴</button>
+						<a href=""> 
+							<button>탈퇴</button>
 						</a>
 					</c:if>
-						<a href="/memberlist.do">
-						<button>목록</button>
+						<a href="/memberlist.do"> 
+							<button>목록</button>
 						</a>
 					</td>
 				</tr>
@@ -60,6 +60,6 @@
 		</table>
 	  </section>
 	</div>
-<jsp:include page="../footer.jsp" />
+	<jsp:include page="../footer.jsp" />
 </body>
 </html>

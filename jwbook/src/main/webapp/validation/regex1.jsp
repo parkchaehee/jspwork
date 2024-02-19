@@ -12,7 +12,8 @@
 	function checkForm(){
 		let form = document.loginForm;
 		let name = form.uname.value;
-		let regex = /^[a-zA-Z가-힣]/  //문자 1개로 시작
+		//let regex = /[0-9]+/  //숫자 여러개
+		let regex = /^[a-zA-Z가-힣]+$/  //한글로 시작
 		
 		if(!regex.test(name)){
 			alert("이름은 숫자로 시작할 수 없습니다.");

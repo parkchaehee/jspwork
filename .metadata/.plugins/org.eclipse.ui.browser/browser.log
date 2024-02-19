@@ -28,21 +28,22 @@
 11월 28, 2023 11:01:38.458 [16680:16676:1128/110138.457:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
 11월 28, 2023 11:03:12.66 [16680:16676:1128/110312.065:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
 
-11월 30, 2023 15:31:57.48 NEW SESSION
-11월 30, 2023 15:31:57.48 [13720:7492:1130/153157.037:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
-11월 30, 2023 16:03:10.269 [1544:9948:1130/160310.269:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
-11월 30, 2023 16:03:10.269 [1544:9948:1130/160310.269:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+12월 06, 2023 09:41:05.30 NEW SESSION
+12월 06, 2023 09:41:05.30 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 
-12월 01, 2023 11:51:56.425 NEW SESSION
-12월 01, 2023 11:51:56.425 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
-
-12월 01, 2023 16:57:22.57 NEW SESSION
-12월 01, 2023 16:57:22.57 [11280:13956:1201/165722.055:ERROR:device_event_log_impl.cc(192)] [16:57:22.056] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
-12월 01, 2023 17:58:34.319 [11280:13956:1201/175834.318:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
-
-12월 04, 2023 12:14:28.203 NEW SESSION
-12월 04, 2023 12:14:28.203 [11548:13292:1204/121428.194:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
-
-12월 06, 2023 11:35:13.380 NEW SESSION
-12월 06, 2023 11:35:13.380 [10404:6292:1206/113513.369:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
-12월 06, 2023 13:56:23.343 [8980:3908:1206/135623.343:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+12월 12, 2023 09:53:53.161 NEW SESSION
+12월 12, 2023 09:53:53.161 [4304:11640:1212/095353.158:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+12월 12, 2023 09:57:06.937 [4304:11640:1212/095706.937:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+12월 12, 2023 10:40:37.113 [11100:9460:1212/104037.112:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+12월 12, 2023 10:41:05.211 [11100:9460:1212/104105.211:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+12월 12, 2023 10:56:37.207 [11100:9460:1212/105637.207:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+12월 12, 2023 10:56:40.264 [11100:9460:1212/105640.264:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+12월 12, 2023 11:09:20.824 [11100:9460:1212/110920.824:ERROR:CONSOLE(1)] "Request Runtime.evaluate failed. {"code":-32602,"message":"uniqueContextId not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+12월 12, 2023 11:09:20.827 [11100:9460:1212/110920.826:ERROR:CONSOLE(1)] "uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+12월 12, 2023 11:09:20.827 [11100:9460:1212/110920.827:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+12월 12, 2023 11:09:20.834 [11100:9460:1212/110920.833:ERROR:CONSOLE(1)] "Received error with code E_PROTOCOLERROR while checking if react has loaded: "Inspector protocol error: %s"", source: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/main.js (1)
+12월 12, 2023 11:09:53.844 [11100:9460:1212/110953.844:ERROR:CONSOLE(1)] "Request Runtime.evaluate failed. {"code":-32602,"message":"uniqueContextId not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+12월 12, 2023 11:09:53.845 [11100:9460:1212/110953.845:ERROR:CONSOLE(1)] "uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+12월 12, 2023 11:09:53.846 [11100:9460:1212/110953.845:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+12월 12, 2023 11:09:53.852 [11100:9460:1212/110953.852:ERROR:CONSOLE(1)] "Received error with code E_PROTOCOLERROR while checking if react has loaded: "Inspector protocol error: %s"", source: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/main.js (1)
+12월 12, 2023 11:29:06.514 [11100:9460:1212/112906.514:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost

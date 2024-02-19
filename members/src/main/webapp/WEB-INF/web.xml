@@ -30,5 +30,4 @@
   		<form-error-page>/member/loginfailed.jsp</form-error-page>
   	</form-login-config>
   </login-config>
-  
 </web-app>

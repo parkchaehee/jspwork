@@ -2,4 +2,5 @@
     pageEncoding="UTF-8"%>
 <%
 	response.sendRedirect("/memberlist.do?error=1");
+
 %>

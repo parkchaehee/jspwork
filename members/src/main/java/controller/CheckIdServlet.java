@@ -14,7 +14,7 @@ import member.MemberDAO;
 @WebServlet("/member/checkid")
 public class CheckIdServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//한글 인코딩 처리
 		request.setCharacterEncoding("utf-8");
@@ -24,20 +24,17 @@ public class CheckIdServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		//메시지 받기
+		//메지지 받기
 		String id = request.getParameter("id");
 		
 		MemberDAO dao = new MemberDAO();
-		boolean result = dao.getDuplicatedId(id);
-		if(result) {//result 가 true일때
-			//중복데이터가 있으면
+		boolean result =  dao.getDuplicatedId(id);
+		if(result) { //result == true
+			//중복 데이터가 있으면
 			out.print("not_usable");
 		}else {
 			out.print("usable");
 		}
-		
-		
-		
 	}
-}
 
+}

@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="resources/css/style.css">
 </head>
 <body>
-	<jsp:include page="header.jsp" />
+    <jsp:include page="header.jsp" />
 	<div id="container">
 	  <section id="main">
 		<h1>안녕하세요~ KH-IT 커뮤니티입니다.</h1>
@@ -22,11 +22,14 @@
 		<div class="newboard">
 			<h3>최신 게시글</h3>
 			<c:forEach items="${boardList}" var="board">
-				<p><a href="/boardView.do?bno=${board.bno}">${board.title}</a>(글쓴이: ${board.id}, 
-						작성일: <fmt:formatDate value="${board.createDate}"
-						pattern="yyyy-MM-dd HH:mm:ss" />)
+				<p><a href="/boardview.do?bno=${board.bno}">${board.title}</a>(글쓴이: ${board.id}, 
+				      작성일: <fmt:formatDate value="${board.createDate}" 
+				   			pattern="yyyy-MM-dd HH:mm:ss" />)
 				</p>
 			</c:forEach>
+			
+			
+			
 		</div>
 	  </section>
 	</div>

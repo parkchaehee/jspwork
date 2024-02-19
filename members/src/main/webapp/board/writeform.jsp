@@ -7,42 +7,46 @@
 <head>
 <meta charset="UTF-8">
 <title>글쓰기 폼</title>
-<link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="../resources/css/style.css">
 </head>
 <body>
+	<!-- 로그인한 사용자만 글쓰기 허용됨 -->
 	<c:if test="${empty sessionId}">
 		<script type="text/javascript">
-			alert("로그인이 필요합니다");
+			alert("로그인이 필요합니다.");
 			location.href = "/loginform.do";
 		</script>
+	
 	</c:if>
-
 	<jsp:include page="../header.jsp" />
-	<div id="container">
-	  <section id="writeform">
+    <div id="container">
+      <section id="writeform">
 		<h2>글쓰기</h2>
-			<form action="/write.do" method="post">
-				<table>
-					<tbody>
-						<tr>
-							<td><input type="text" name="title"
-								placeholder="글제목" required></td>
-						</tr>
-						<tr>
-							<td><textarea rows="7" cols="100" 
-							name="content" placeholder="글내용"></textarea> </td>
-						</tr>
-					</tbody>
+		<form action="/write.do" method="post" enctype="multipart/form-data">
+			<table>
+				<tbody>
 					<tr>
-						<td>
-							<button type="submit">등록</button>
-							<button type="reset">취소</button>
-						</td>
+						<td><input type="text" name="title"
+								placeholder="글제목" required> </td>
 					</tr>
-				</table>
-			</form>
+				    <tr>
+				    	<td><textarea rows="7" cols="100" required
+				    		name="content" placeholder="글내용"></textarea></td>
+				    </tr>
+				    <tr>
+						<td><input type="file" name="filename"></td>
+					</tr>
+				    <tr>
+				    	<td>
+				    		<button type="submit">등록</button>
+				    		<button type="submit">취소</button>
+				    	</td>
+				    </tr>
+				</tbody>
+			</table>
+		</form>
 	  </section>
 	</div>
-<jsp:include page="../footer.jsp" />
+	<jsp:include page="../footer.jsp" />
 </body>
 </html>

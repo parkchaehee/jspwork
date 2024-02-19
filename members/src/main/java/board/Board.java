@@ -16,7 +16,6 @@ public class Board implements Serializable{
 	private String filename;
 	private String id;
 	
-	
 	public int getBno() {
 		return bno;
 	}
@@ -65,8 +64,4 @@ public class Board implements Serializable{
 	public void setId(String id) {
 		this.id = id;
 	}
-	
-	
-	
-
 }

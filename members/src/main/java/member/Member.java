@@ -5,16 +5,15 @@ import java.sql.Timestamp;
 
 public class Member implements Serializable{
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 11L;
 	
-	private int mno;				//회원 번호
+	private int mno;                //회원 번호
 	private String id;				//회원 아이디
 	private String passwd;			//비밀번호
 	private String name;			//성명
 	private String email;			//이메일
 	private String gender;			//성별
 	private Timestamp joinDate;		//가입일
-	
 	
 	public int getMno() {
 		return mno;
@@ -58,7 +57,4 @@ public class Member implements Serializable{
 	public void setJoinDate(Timestamp joinDate) {
 		this.joinDate = joinDate;
 	}
-	
-	
-
 }
